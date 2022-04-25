@@ -16,3 +16,7 @@ c. vimrc/init.vim add Plugin 'neoclide/coc.nvim'
 d. :BundleInstall  install the plug and 
 
 e. :BundleUpdate check update function
+
+
+windows terminal 
+face：Consolas
