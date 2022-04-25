@@ -20,3 +20,12 @@ e. :BundleUpdate check update function
 
 windows terminal 
 face：Consolas
+
+【Vundle】 不能直接复制 plugin，需要单独拉，windows和linux有差异
+1. git clone https://github.com/VundleVim/Vundle.vim ~/.vim/bundle/Vundle.vim
+2. vimrc set nocompatible
+3. filetype off  "must
+4. set rtp+=~/.vim/bundle/Vundle.vim
+5. call vundle#begin()
+6. Plugin 'VundleVim/Vundle.vim'
+7. call vundle#end()
