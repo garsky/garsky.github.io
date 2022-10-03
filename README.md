@@ -92,10 +92,12 @@ sudo apt update
 sudo apt --fix-broken install
 
 **[error] Error on execute :pyx command, ultisnips feature of coc-snippets requires pyx sup**
+
 python3 -m pip install pyx
 python3 -m pip install wheel
 add /home/potter/.local/bin to PATH 
 python3 -m pip install pyx
+python3 -m pip install pynvim
 
 **[error] Traceback (most recent call last):**
 File "/usr/bin/add-apt-repository", line 12, in <module>
